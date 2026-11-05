@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kartik Gaikwad Films</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ background:#090909;
+ color:white;
+ font-family:Arial,sans-serif;
+}
+header{
+ padding:22px 18px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ border-bottom:1px solid #292929;
+}
+.logo{font-size:19px;font-weight:bold;letter-spacing:1px}
+.logo span{color:#d6a85b}
+.hero{
+ padding:65px 22px 45px;
+ text-align:center;
+ background:linear-gradient(145deg,#252018,#090909 75%);
+}
+.hero small{color:#d6a85b;letter-spacing:3px}
+.hero h1{font-size:36px;margin:18px 0}
+.hero p{color:#aaa;line-height:1.7}
+.section{padding:28px 18px}
+.section h2{font-size:22px}
+.card{
+ background:#171717;
+ border:1px solid #333;
+ border-radius:14px;
+ padding:20px;
+ margin-top:18px;
+}
+.video{
+ height:180px;
+ border-radius:10px;
+ background:linear-gradient(135deg,#282828,#111);
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ color:#d6a85b;
+ font-size:38px;
+}
+.muted{color:#aaa;font-size:13px;line-height:1.6}
+.price{font-size:26px;color:#d6a85b;font-weight:bold}
+button{
+ width:100%;
+ padding:15px;
+ margin-top:12px;
+ border:0;
+ border-radius:8px;
+ background:#d6a85b;
+ color:#111;
+ font-size:15px;
+ font-weight:bold;
+}
+.lock{
+ background:#292929;
+ color:white;
+}
+footer{
+ text-align:center;
+ padding:30px 15px;
+ border-top:1px solid #333;
+ color:#aaa;
+ font-size:13px;
+}
+a{color:#d6a85b;text-decoration:none}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="logo">KARTIK <span>GAIKWAD</span></div>
+ <div>FILMS 🎬</div>
+</header>
+
+<div class="hero">
+ <small>PREMIUM VIDEO EXPERIENCE</small>
+ <h1>Your Memories,<br>Our Cinematic Art.</h1>
+ <p>Welcome to Kartik Gaikwad Films.<br>
+ Your personal cinematic reel gallery.</p>
+</div>
+
+<div class="section">
+ <h2>🎬 Your Private Gallery</h2>
+ <p class="muted">
+ Welcome! Your cinematic memories are waiting for you.
+ </p>
+
+ <div class="card">
+  <div class="video">▶</div>
+  <h3>Your Cinematic Reel</h3>
+  <p class="muted">
+   Your video preview will appear here after your
+   photographer uploads it.
+  </p>
+  <p class="price">Price: To be confirmed</p>
+  <button onclick="alert('Payment setup is pending. Please contact Kartik to confirm payment.')">
+   🔒 Payment / Unlock Download
+  </button>
+  <button class="lock" disabled>
+   🔒 Download Locked
+  </button>
+ </div>
+</div>
+
+<div class="section">
+ <h2>Contact Photographer</h2>
+ <div class="card">
+  <p>📸 Kartik Gaikwad Films</p>
+  <p>Instagram:
+   <a href="https://instagram.com/kartikgaikwad.films_03">
+   @kartikgaikwad.films_03</a>
+  </p>
+  <p>WhatsApp:
+   <a href="https://wa.me/918999467766">
+   8999467766</a>
+  </p>
+  <button onclick="window.open('https://wa.me/918999467766','_blank')">
+   Contact on WhatsApp
+  </button>
+ </div>
+</div>
+
+<footer>
+ © 2026 Kartik Gaikwad Films<br>
+ All Rights Reserved.
+</footer>
+
+</body>
+</html>
